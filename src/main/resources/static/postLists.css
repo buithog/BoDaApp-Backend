@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #8e3f3f;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.main {
+    display: flex;
+}
+
+.content {
+    margin-left: 220px; /* To avoid overlap with the sidebar */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.content {
+    margin-left: 220px; /* To avoid overlap with the sidebar */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    border-right: none; /* Để nối liền với nút */
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+.slider {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 500px; /* Chiều cao của slider */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.slide {
+    /* display: flex;
+    justify-content: space-between; */
+    min-height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.post-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.post-card img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.post-details {
+    flex-grow: 1;
+}
+.post-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.post-details p {
+    margin: 0;
+    color: #666;
+}
+.post-card .btn-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-group .btn_delete{
+    background-color: #e54141;
+    cursor: pointer;
+}
+.btn-group .btn_delete:hover{
+    background-color: #f50000;
+}
+.post-card button {
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.btn-group button:hover{
+    background-color: #45a049;
+}
+.postContent{
+    align-items: center;
+    display: flex;
+    
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

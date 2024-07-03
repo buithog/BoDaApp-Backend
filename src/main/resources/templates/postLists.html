@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-dashbroad</title>
+    <link rel="stylesheet" href="static/postLists.css">
+    <link rel="icon" type="image/x-icon" href="static/img/Layer 1.png">
+</head>
+<body>
+    <div class="header">
+        <h1>Dashboard</h1>
+        <div class="user-info">
+            <span>Welcome, User</span>
+            <img src="img/Layer 1.png" alt="User Avatar" class="avatar">
+        </div>
+    </div>
+    <div class="main">
+        <nav class="sidebar">
+            <img class="icon_app" src="img/Layer 1.png" alt="logo">
+            <H2>BoDa App</H2>
+            <a href="/admin/post">Bài viết</a>
+            <a href="/admin/voice">Thuyết minh</a>
+            <a href="/admin/user">Người dùng</a>
+        </nav>
+        <div class="content">
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search...">
+                <button id="search-button">Search</button>
+            </div>
+
+            <div class="slider" id="slider">
+                <div class="slide">
+                </div>
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Nút phân trang sẽ được chèn vào đây -->
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="static/postLists.js"></script>
+</html>

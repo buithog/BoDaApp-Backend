@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="static/img/Layer 1.png">
+    <link rel="stylesheet" href="static/dasbroad_style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Dashboard</h1>
+        <div class="user-info">
+            <span>Welcome, User</span>
+            <img src="img/Layer 1.png" alt="User Avatar" class="avatar">
+        </div>
+    </div>
+    <div class="main">
+        <nav class="sidebar">
+            <img class="icon_app" src="img/Layer 1.png" alt="logo">
+            <H2>BoDa App</H2>
+            <a href="/admin/post">Bài viết</a>
+            <a href="/admin/voice">Thuyết minh</a>
+            <a href="/admin/user">Người dùng</a>
+        </nav>
+        <div class="content">
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search...">
+                <button id="search-button">Search</button>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                    <div class="post-card">
+                        <img src="img/Layer 1.png" alt="Thumbnail 1">
+                        <h3>Post Title 1</h3>
+                        <p>Author: Author 1</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="post-card">
+                        <img src="img/Layer 1.png" alt="Thumbnail 2">
+                        <h3>Post Title 2</h3>
+                        <p>Author: Author 2</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="post-card">
+                        <img src="img/Layer 1.png" alt="Thumbnail 3">
+                        <h3>Post Title 3</h3>
+                        <p>Author: Author 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="card" id="total-posts">
+                    <h3>Tổng bài viết</h3>
+                    <p class="total_posts">100</p>
+                </div>
+                <div class="card" id="total-voices">
+                    <h3>Tổng số thuyết minh</h3>
+                    <p class="total_voices">200</p>
+                </div>
+                <div class="card" id="total-users">
+                    <h3>Tổng số người dùng</h3>
+                    <p class="total_users">50</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="static/dasbroad_script.js"></script>
+</body>
+</html>
